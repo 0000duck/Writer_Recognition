@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/backgroud">
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:enabled="true"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:maxLines="1"
+        android:minLines="1"
+        android:scrollbars="vertical" 
+        android:hint=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:padding="10dp"
+        android:background="@drawable/text_circle"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"        
+        android:text="保存 "
+        android:background="@drawable/bt_circle"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:onClick="save"/>
+
+</LinearLayout>

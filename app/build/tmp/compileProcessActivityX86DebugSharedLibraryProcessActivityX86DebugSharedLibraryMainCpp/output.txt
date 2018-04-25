@@ -1,0 +1,22 @@
+See file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/compileProcessActivityX86DebugSharedLibraryProcessActivityX86DebugSharedLibraryMainCpp/output.txt for all output for compileProcessActivityX86DebugSharedLibraryProcessActivityX86DebugSharedLibraryMainCpp.
+compiling processing.cpp successful.
+
+compiling processTools.cpp successful.
+
+compiling CString.cpp successful.
+
+compiling AddProcess.cpp successful.
+
+compiling svm-scale.cpp successful.
+
+compiling svm-train.cpp successful.
+
+compiling svm-predict.cpp successful.
+
+compiling recnum.cpp successful.
+
+compiling Thinning.cpp successful.
+
+compiling svm.cpp successful.
+
+Finished compileProcessActivityX86DebugSharedLibraryProcessActivityX86DebugSharedLibraryMainCpp, see full log file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/compileProcessActivityX86DebugSharedLibraryProcessActivityX86DebugSharedLibraryMainCpp/output.txt.

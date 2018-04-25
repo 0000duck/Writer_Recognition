@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.1.aar\45d6012dfc37670d461307fc9dfdc5c9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.1.aar\d6357fb09d53b84ed84becebdae011c3\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.1.aar\d6357fb09d53b84ed84becebdae011c3\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.1.aar\a3885c8ab14594d05ab4c1e2e1f16161\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.1.aar\b568b92755cd73cd497ec8415424ebc0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.1.aar\c2546eba07d6e86da2c038a9d1b0d48e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.1.aar\b49957c2e9bea66770958a3fa36b9c1d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.1.aar\642a3aafb0a8386d800d9d690cb3398d\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SoftWare\AndroidStudio\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.1.aar\45d6012dfc37670d461307fc9dfdc5c9\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\14.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.1.aar\7ed10c436f8dd08b62e6cdd2a83ebfc4\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\22c2e1cb36a69cb0f0e06607f7000df6\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.1.aar\a3885c8ab14594d05ab4c1e2e1f16161\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\16.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.1.aar\7ed10c436f8dd08b62e6cdd2a83ebfc4\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.1.aar\9123a74aea60a18c18a7fa7865ad71ec\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\刘欢\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.1.aar\9123a74aea60a18c18a7fa7865ad71ec\jars\libs\internal_impl-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\10.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\SoftWare\AndroidStudio\extras\android\m2repository\com\android\support\support-annotations\25.0.1\support-annotations-25.0.1.jar"
+        jumboMode="false"
+        min-sdk-version="17"
+        optimize="true"
+        revision="26.0.2"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="C:\SRI-OCRTestFocusRectFixed\app\build\intermediates\transforms\preDex\release\17.jar" />
+    </item>
+
+</items>

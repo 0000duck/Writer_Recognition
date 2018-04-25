@@ -1,0 +1,59 @@
+apply plugin: 'com.android.model.application'
+
+model {
+    android {
+        compileSdkVersion = 25
+        buildToolsVersion = "25.0.1"
+
+        compileOptions.encoding="UTF-8"
+        aaptOptions.cruncherEnabled = false
+        aaptOptions.useNewCruncher = false
+
+        defaultConfig.with {
+            applicationId = "cn.xyj.imgrecognition"
+            minSdkVersion.apiLevel = 17
+            targetSdkVersion.apiLevel = 18
+            versionCode = 1
+            versionName = "1.0"
+        }
+    }
+
+    android.ndk {
+        moduleName = "processActivity"
+        cppFlags.add("-I${file("src/main/jni")}".toString())
+        cppFlags.add("-DANDROID")
+        cppFlags.add("-fexceptions")
+        cppFlags.add("-frtti")
+        stl = "gnustl_static"
+        ldLibs.add("log")
+        ldLibs.add("GLESv2")
+    }
+    android.buildTypes {
+        release {
+            minifyEnabled = false
+            proguardFiles.add(file("proguard-rules.pro"))
+        }
+    }
+
+
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:appcompat-v7:25.0.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    //testCompile 'junit:junit:4.12'
+}
+allprojects {
+    gradle.projectsEvaluated {
+
+        tasks.withType(JavaCompile) {
+            options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        }
+    }
+
+}
+
+
+

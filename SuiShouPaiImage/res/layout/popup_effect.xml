@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" >  
+  
+    <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentBottom="true"  
+        android:background="@drawable/image_button_bg_left"  
+        android:orientation="vertical" >  
+        <LinearLayout  
+            android:layout_width="wrap_content"  
+            android:layout_height="wrap_content"  
+            android:layout_gravity="center_horizontal"  
+            android:layout_marginTop="5dp"  
+            android:orientation="horizontal" > 
+             
+            <LinearLayout  
+                android:id="@+id/layout_effect_hj"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_margin="2dp"  
+                android:layout_weight="1"  
+                android:orientation="vertical" >  
+                <ImageView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:src="@drawable/image_effect_hj" />
+                <TextView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:shadowColor="#ff000000"  
+                    android:shadowDx="1.0"  
+                    android:shadowDy="1.0"  
+                    android:shadowRadius="1.0"  
+                    android:text="怀旧"  
+                    android:textColor="#ffffffff"  
+                    android:textSize="13.0dip" />  
+            </LinearLayout>  
+  
+            <LinearLayout  
+                android:id="@+id/layout_effect_fd"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_margin="2dp"  
+                android:layout_weight="1"  
+                android:orientation="vertical" >  
+                <ImageView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:src="@drawable/image_effect_fd" />  
+                <TextView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:shadowColor="#ff000000"  
+                    android:shadowDx="1.0"  
+                    android:shadowDy="1.0"  
+                    android:shadowRadius="1.0"  
+                    android:text="浮雕"  
+                    android:textColor="#ffffffff"  
+                    android:textSize="13.0dip" />  
+            </LinearLayout>  
+
+            <LinearLayout  
+                android:id="@+id/layout_effect_gz"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_margin="2dp"  
+                android:layout_weight="1"  
+                android:orientation="vertical" >  
+                <ImageView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:src="@drawable/image_effect_gz" /> 
+                <TextView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:shadowColor="#ff000000"  
+                    android:shadowDx="1.0"  
+                    android:shadowDy="1.0"  
+                    android:shadowRadius="1.0"  
+                    android:text="光照"  
+                    android:textColor="#ffffffff"  
+                    android:textSize="13.0dip" />  
+            </LinearLayout>  
+  
+            <LinearLayout  
+                android:id="@+id/layout_effect_sm"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_margin="2dp"  
+                android:layout_weight="1"  
+                android:orientation="vertical" >  
+                <ImageView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:src="@drawable/image_effect_sm" />  
+                <TextView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:shadowColor="#ff000000"  
+                    android:shadowDx="1.0"  
+                    android:shadowDy="1.0"  
+                    android:shadowRadius="1.0"  
+                    android:text="素描"  
+                    android:textColor="#ffffffff"  
+                    android:textSize="13.0dip" />  
+            </LinearLayout>  
+  
+            <LinearLayout  
+                android:id="@+id/layout_effect_rh"
+                android:layout_width="wrap_content"  
+                android:layout_height="wrap_content"  
+                android:layout_margin="2dp"  
+                android:layout_weight="1"  
+                android:orientation="vertical" >  
+                <ImageView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:src="@drawable/image_effect" />  
+                <TextView  
+                    android:layout_width="wrap_content"  
+                    android:layout_height="wrap_content"  
+                    android:layout_gravity="center_horizontal"  
+                    android:layout_marginTop="1.0dip"  
+                    android:shadowColor="#ff000000"  
+                    android:shadowDx="1.0"  
+                    android:shadowDy="1.0"  
+                    android:shadowRadius="1.0"  
+                    android:text="锐化"  
+                    android:textColor="#ffffffff"  
+                    android:textSize="13.0dip" />  
+            </LinearLayout>  
+            
+        </LinearLayout>  
+    </LinearLayout>  
+</RelativeLayout>

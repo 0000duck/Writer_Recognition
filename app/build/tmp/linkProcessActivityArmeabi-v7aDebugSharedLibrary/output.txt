@@ -1,0 +1,4 @@
+See file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityArmeabi-v7aDebugSharedLibrary/output.txt for all output for linkProcessActivityArmeabi-v7aDebugSharedLibrary.
+linking libprocessActivity.so successful.
+
+Finished linkProcessActivityArmeabi-v7aDebugSharedLibrary, see full log file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityArmeabi-v7aDebugSharedLibrary/output.txt.

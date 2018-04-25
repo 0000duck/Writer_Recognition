@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

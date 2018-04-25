@@ -1,0 +1,4 @@
+See file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityX86DebugSharedLibrary/output.txt for all output for linkProcessActivityX86DebugSharedLibrary.
+linking libprocessActivity.so successful.
+
+Finished linkProcessActivityX86DebugSharedLibrary, see full log file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityX86DebugSharedLibrary/output.txt.

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        >
+        <Button
+            android:id="@+id/btnPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:onClick="savePic"
+            android:text="从手机中选取照片"
+            android:textColor="#ffffff"
+            android:background="@drawable/bt_circle"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="35dp"
+            android:paddingRight="35dp"
+            />
+
+        <Button
+            android:id="@+id/B_saveblist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:onClick="savePicOfBlist"
+            android:text="保存"
+            android:textColor="#ffffff"
+            android:background="@drawable/bt_circle"
+            android:paddingRight="25dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+        />
+
+        <TextView
+            android:id="@+id/orignalTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/orignalView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/norTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"/>
+
+        <ImageView
+            android:id="@+id/norView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true" />
+
+    <ListView
+        android:id="@+id/Slistview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <include
+        layout="@layout/lastitem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"/>
+</LinearLayout>

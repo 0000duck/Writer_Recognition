@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content" >  
+  
+    <LinearLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:layout_alignParentBottom="true"  
+        android:background="@drawable/image_button_bg_left"  
+        android:orientation="vertical" >  
+             
+            <LinearLayout  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:paddingTop="2dp"
+                android:orientation="horizontal" >  
+                <TextView
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"  
+        			android:paddingLeft="40px"
+        			android:paddingTop="10px"
+        			android:text="饱和" />
+                <SeekBar
+                    android:id="@+id/seekBarSaturation"
+                    android:layout_width="fill_parent"  
+			        android:layout_height="wrap_content"  
+			        android:max="255"  
+			        android:progress="127"  
+			        android:secondaryProgress="75" >
+                </SeekBar>
+            </LinearLayout>  
+  
+            <LinearLayout   
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"    
+                android:orientation="horizontal" >  
+                <TextView
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"  
+        			android:paddingLeft="40px"
+        			android:text="色相" />
+                <SeekBar
+                    android:id="@+id/seekBarHue"
+                    android:layout_width="fill_parent"  
+			        android:layout_height="wrap_content"  
+			        android:max="255"  
+			        android:progress="127"  
+			        android:secondaryProgress="75" >
+                </SeekBar>
+            </LinearLayout>  
+            
+            <LinearLayout  
+                android:layout_width="fill_parent"  
+                android:layout_height="wrap_content"  
+                android:orientation="horizontal" >  
+                <TextView
+                    android:layout_width="wrap_content" 
+                    android:layout_height="wrap_content"  
+        			android:paddingLeft="40px"
+        			android:text="亮度" />
+                <SeekBar
+                    android:id="@+id/seekBarLum"
+                    android:layout_width="fill_parent"  
+			        android:layout_height="wrap_content"  
+			        android:max="255"  
+			        android:progress="127"  
+			        android:secondaryProgress="75" >
+                </SeekBar>
+            </LinearLayout>  
+             
+    </LinearLayout>  
+</RelativeLayout>

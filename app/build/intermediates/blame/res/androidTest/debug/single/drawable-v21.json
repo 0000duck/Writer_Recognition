@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    }
+]

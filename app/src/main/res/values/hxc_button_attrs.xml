@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="HXCButton">
+        <attr name="buttonBackground" format="reference|color"></attr>
+        <attr name="buttonWidth" format="dimension"></attr>
+        <attr name="buttonHeight" format="dimension"></attr>
+        <attr name="buttonPosition" format="string"></attr>
+        <attr name="buttonId" format="dimension"></attr>
+
+        <attr name="titleText" format="string"></attr>
+        <attr name="titleTextColor" format="color"></attr>
+        <attr name="titleTextSize" format="dimension"></attr>
+        <attr name="titleId" format="dimension"></attr>
+
+
+    </declare-styleable>
+
+    <item name="my_view" type="id" />
+
+</resources>

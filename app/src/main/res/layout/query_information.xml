@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f0898686" >
+
+
+        <TextView
+            android:id="@+id/Lb_takephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="数据库查询信息显示"
+            android:textColor="#fafbfc"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:onClick="searchBack"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <cn.hxc.imgrecognition.MyWebView
+            android:id="@+id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        </cn.hxc.imgrecognition.MyWebView>
+    </RelativeLayout>
+
+    <include
+        layout="@layout/lastitem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true" />
+
+</LinearLayout>

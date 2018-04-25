@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="cn.hxc.imgrecognition.queryLocInfor">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#f0898686" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="本地查询信息显示"
+            android:textColor="#fafbfc"
+            android:textSize="18dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:onClick="searchLocBack"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="书写人:  "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edit_sxr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/text_circle"
+                    android:textSize="14dp"
+                    android:focusable="false"
+                    android:padding="7dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="上传人:  "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/edit_cjr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="14dp"
+                    android:background="@drawable/text_circle"
+                    android:focusable="false"
+                    android:padding="7dp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp">
+
+            <Button
+                android:id="@+id/button_SearchDatabase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:onClick="SearchDatabase"
+                android:text="查询"
+                android:textSize="12dp"
+                android:textColor="#000000"
+                android:background="@drawable/bt_white"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_height="35dp"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textSize="16dp"/>
+    </LinearLayout>
+    <!--numColumns设置每行显示多少个-->
+
+    <GridView
+        android:id="@+id/grid_photo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"/>
+
+    <include
+        layout="@layout/lastitem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true" />
+
+</LinearLayout>
