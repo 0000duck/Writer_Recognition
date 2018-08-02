@@ -217,7 +217,7 @@ public class chooseImage extends Activity {
     public void shanchuwenjian(View v) {
 
         if (mList.isEmpty()) {
-            Intent intent = new Intent(chooseImage.this, functionMain.class);
+            Intent intent = new Intent(chooseImage.this, set.class);
             startActivity(intent);
             return;
         }
@@ -362,7 +362,7 @@ public class chooseImage extends Activity {
 
             }
             Toast.makeText(this, "完成删除！", Toast.LENGTH_LONG).show();
-            Intent intent = new Intent(chooseImage.this, functionMain.class);
+            Intent intent = new Intent(chooseImage.this, set.class);
             startActivity(intent);
         }
     }

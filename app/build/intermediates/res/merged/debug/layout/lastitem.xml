@@ -39,7 +39,7 @@
                 android:id="@+id/B_QueryLoc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/search"
+                android:src="@drawable/searchloc"
                 android:background="#ffffff"
                 android:layout_gravity="center_horizontal"
                 android:onClick="botmQueryLoc"/>
@@ -65,7 +65,7 @@
             android:id="@+id/B_QueryDB"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/search"
+            android:src="@drawable/searchdb"
             android:background="#ffffff"
             android:layout_gravity="center_horizontal"
             android:onClick="botmQueryDB"/>

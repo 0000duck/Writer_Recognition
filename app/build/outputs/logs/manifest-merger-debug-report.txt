@@ -142,7 +142,9 @@ MERGED from [com.android.support:support-compat:25.0.1] C:\Users\Αυ»Ά\.gradle\ca
 	android:theme
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:29:9-39
 activity#cn.hxc.imgrecognition.MainActivity
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:30:9-39:20
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:30:9-40:20
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:34:13-49
 	android:label
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:32:13-45
 	android:launchMode
@@ -150,91 +152,117 @@ ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:30:9
 	android:name
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:31:13-62
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:35:13-38:29
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:36:13-39:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:36:17-119
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:37:17-120
 	android:theme
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:36:67-117
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:37:67-117
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:37:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:37:17-77
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:38:17-77
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:37:27-74
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:38:27-74
 activity#cn.hxc.imgrecognition.inputInformationBlist
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:41:9-110
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:9-147
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:99-135
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:41:78-98
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:78-98
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:41:19-77
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:19-77
 activity#cn.hxc.imgrecognition.queryLocInfor
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:9-102
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:9-139
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:91-127
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:70-90
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:70-90
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:42:19-69
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:19-69
 activity#cn.hxc.imgrecognition.blackList
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:9-97
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:9-136
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:88-124
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:66-85
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:66-87
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:19-65
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:19-65
 activity#cn.hxc.imgrecognition.set
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:9-90
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:9-127
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:79-115
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:60-78
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:60-78
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:19-59
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:19-59
 activity#cn.hxc.imgrecognition.savecandidate
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:9-103
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:9-140
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:92-128
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:70-91
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:70-91
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:45:19-69
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:19-69
 activity#cn.hxc.imgrecognition.chooseImage
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:9-101
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:9-138
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:90-126
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:68-89
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:68-89
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:46:19-67
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:19-67
 activity#cn.hxc.imgrecognition.processActivity
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:9-104
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:9-141
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:93-129
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:72-92
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:72-92
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:47:19-71
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:19-71
 activity#cn.hxc.imgrecognition.inputInformation
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:9-105
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:9-142
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:94-130
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:73-93
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:73-93
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:48:19-72
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:19-72
 activity#cn.hxc.imgrecognition.queryDBInfor
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:9-101
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:50:9-138
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:50:90-126
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:69-89
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:50:69-89
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:49:19-68
-activity#cn.hxc.imgrecognition.functionMain
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:51:9-101
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:50:19-68
+activity#cn.hxc.imgrecognition.findPassword
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:51:9-138
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:51:90-126
 	android:label
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:51:69-89
 	android:name
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:51:19-68
-activity#cn.hxc.imgrecognition.findPassword
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:9-101
-	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:69-89
-	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:19-68
 activity#cn.hxc.imgrecognition.forgetPassword
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:9-103
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:9-140
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:92-128
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:71-91
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:71-91
 	android:name
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:19-70
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:52:19-70
+activity#cn.hxc.imgrecognition.BlistCompare
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:9-139
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:91-127
+	android:label
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:69-90
+	android:name
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:53:19-68
 activity#cn.hxc.imgrecognition.takePhoto
 ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:55:9-63:20
+	android:screenOrientation
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:57:47-83
 	android:label
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:55:66-91
 	android:launchMode

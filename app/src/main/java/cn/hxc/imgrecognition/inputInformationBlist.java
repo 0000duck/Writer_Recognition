@@ -426,7 +426,7 @@ public class inputInformationBlist extends Activity{
         pw.print(snewname + " ");
         pw.print(sxname + " ");
         for (int ii = 0; ii < 920; ii++) {
-            String temp = String.format("%-6f", blackList.ixyj[ii]);
+            String temp = String.format("%-6f", BlistCompare.ixyj[ii]);
             pw.print(temp + " ");
         }
         pw.print("\r\n");

@@ -95,7 +95,7 @@ public class savecandidate extends Activity {
 			e.printStackTrace();
 		}
 		Toast.makeText(this, "设置成功！", Toast.LENGTH_LONG).show();
-		Intent intent = new Intent(savecandidate.this,MainActivity.class);
+		Intent intent = new Intent(savecandidate.this,set.class);
 		startActivity(intent);
 	}
 }

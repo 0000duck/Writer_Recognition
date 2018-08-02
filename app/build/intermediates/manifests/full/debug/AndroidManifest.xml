@@ -35,7 +35,8 @@
         <activity
             android:name="cn.hxc.imgrecognition.MainActivity"
             android:label="@string/app_name"
-            android:launchMode="singleTask" >
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action
                     android:name="android.intent.action.MAIN"
@@ -46,45 +47,58 @@
         </activity>
         <activity
             android:name="cn.hxc.imgrecognition.inputInformationBlist"
-            android:label="查询本地" />
+            android:label="查询本地"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.queryLocInfor"
-            android:label="查询本地" />
+            android:label="查询本地"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.blackList"
-            android:label="黑名单" />
+            android:label="黑名单裁剪"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.set"
-            android:label="设置" />
+            android:label="设置"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.savecandidate"
-            android:label="候选人数目" />
+            android:label="候选人数目"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.chooseImage"
-            android:label="数据库整理" />
+            android:label="数据库整理"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.processActivity"
-            android:label="识别结果" />
+            android:label="识别结果"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.inputInformation"
-            android:label="输入信息" />
+            android:label="输入信息"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.queryDBInfor"
-            android:label="查询后台" />
-        <activity
-            android:name="cn.hxc.imgrecognition.functionMain"
-            android:label="主要功能" />
+            android:label="查询后台"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.findPassword"
-            android:label="主要功能" />
+            android:label="主要功能"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.forgetPassword"
-            android:label="用户注册" />
+            android:label="用户注册"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.BlistCompare"
+            android:label="黑名单比较"
+            android:screenOrientation="portrait" />
         <activity
             android:name="cn.hxc.imgrecognition.takePhoto"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|navigation"
             android:label="takephoto"
-            android:launchMode="singleTop" >
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.SRICamera" />
 

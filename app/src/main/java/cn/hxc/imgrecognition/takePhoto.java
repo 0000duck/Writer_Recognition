@@ -1020,11 +1020,6 @@ public BitmapFactory.Options getOption(BitmapFactory.Options opts){
 		}
 	}
 
-	//重写手机返回键
-	public void onBackPressed(){
-		Intent intent = new Intent(takePhoto.this, functionMain.class);
-		startActivity(intent);
-	}
 	void destoryView(){
 		if(rect!=null){
 			rect=null;

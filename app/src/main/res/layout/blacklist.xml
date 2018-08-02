@@ -2,9 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:paddingTop="16dp"
+    android:paddingTop="8dp"
     android:background="@drawable/backgroud"
     android:orientation="vertical">
 
@@ -18,10 +16,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
-            android:onClick="savePic"
             android:text="从手机中选取照片"
             android:textColor="#ffffff"
             android:background="@drawable/bt_circle"
+            android:layout_marginStart="16dp"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
             android:paddingLeft="35dp"
@@ -29,60 +27,43 @@
             />
 
         <Button
-            android:id="@+id/B_saveblist"
+            android:id="@+id/B_shotblist"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_alignParentTop="true"
             android:onClick="savePicOfBlist"
-            android:text="保存"
+            android:text="裁剪"
             android:textColor="#ffffff"
             android:background="@drawable/bt_circle"
+            android:layout_marginRight="16dp"
             android:paddingRight="25dp"
             android:paddingLeft="25dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
-            android:visibility="invisible"
             />
     </RelativeLayout>
-        />
 
-        <TextView
-            android:id="@+id/orignalTxt"
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:textColor="#000000"/>
+            android:orientation="vertical"
+            android:layout_weight="1">
 
-        <ImageView
-            android:id="@+id/orignalView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:adjustViewBounds="true" />
+            <com.edmodo.cropper.CropImageView
+                android:id="@+id/CropImageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/content_padding"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                />
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/norTxt"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="#000000"/>
-
-        <ImageView
-            android:id="@+id/norView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:adjustViewBounds="true" />
-
-    <ListView
-        android:id="@+id/Slistview"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"/>
 
     <include
         layout="@layout/lastitem"
         android:layout_height="wrap_content"
-        android:layout_width="match_parent"
-        android:layout_alignParentBottom="true"/>
+        android:layout_width="match_parent" />
 </LinearLayout>
