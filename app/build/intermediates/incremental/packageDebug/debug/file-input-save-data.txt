@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Aug 10 10:10:42 CST 2018
+#Fri Aug 10 11:36:22 CST 2018
 2.base=C\:\\Users\\Αυ»Ά\\Desktop\\Work\\0421\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 0.path=lib/arm64-v8a/libprocessActivity.so
 2.baseType=DIRECTORY

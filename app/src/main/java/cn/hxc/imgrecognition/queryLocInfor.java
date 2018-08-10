@@ -91,11 +91,11 @@ public class queryLocInfor extends Activity{
         cjr = ((EditText) findViewById(R.id.edit_cjr)).getText().toString();
         mData = new ArrayList<Icon>();
 
-        /*try{
+        try{
             queryAllInfor(norImagePath);
         }catch (IOException e){
             e.printStackTrace();
-        }*/
+        }
     }
     /*
     将所有信息存储到自定义的结构体内，方面显示

@@ -4,12 +4,12 @@
         "source": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\src\\main\\res\\layout\\sub_findpsw.xml"
     },
     {
-        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
         "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "C:\\Users\\刘欢\\Desktop\\0323\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\debug\\layout\\btn_takephoto.xml",
@@ -36,12 +36,12 @@
         "source": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\src\\main\\res\\layout\\settings.xml"
     },
     {
-        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_set.xml",
-        "source": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\src\\main\\res\\layout\\image_set.xml"
-    },
-    {
         "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\debug\\layout\\choose_image.xml",
         "source": "C:\\Users\\刘欢\\Desktop\\0323\\app\\src\\main\\res\\layout\\choose_image.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\debug\\layout\\image_set.xml",
+        "source": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\src\\main\\res\\layout\\image_set.xml"
     },
     {
         "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\layout\\notification_media_cancel_action.xml"
-    },
-    {
         "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\build\\intermediates\\res\\merged\\debug\\layout\\listprocess.xml",
         "source": "C:\\Users\\刘欢\\Desktop\\Work\\0421\\app\\src\\main\\res\\layout\\listprocess.xml"
+    },
+    {
+        "merged": "C:\\Users\\刘欢\\Desktop\\0323\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\刘欢\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.0.1.aar\\03aaa23ebbea11dbacd4cf09639e8fd6\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
         "merged": "C:\\Users\\刘欢\\Desktop\\Work\\0328\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
