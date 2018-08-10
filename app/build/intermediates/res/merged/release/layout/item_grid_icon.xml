@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:id="@+id/ShowTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp">
+        <!--命名为TV一号-->
+        <TextView
+            android:id="@+id/imageid"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:textColor="#0b0b0b"
+            android:background="@drawable/textview_border2"/>
+
+        <TextView
+            android:id="@+id/sxr"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:textColor="#0b0b0b"
+            android:background="@drawable/textview_border2"/>
+
+        <TextView
+            android:id="@+id/cjr"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:textColor="#0b0b0b"
+            android:background="@drawable/textview_border2"/>
+
+        <TextView
+            android:id="@+id/sctime"
+            android:layout_height="35dp"
+            android:gravity="center_vertical"
+            android:textColor="#0b0b0b"
+            android:background="@drawable/textview_border2"/>
+        <ImageView
+            android:id="@+id/myimg"
+            android:layout_marginBottom="25dp"
+            android:padding="10dp"
+            android:scaleType="fitStart"
+            android:layout_height="60dp"
+            android:layout_width="wrap_content"
+            android:background="@drawable/textview_border"
+            />
+    </TableLayout>
+</LinearLayout>

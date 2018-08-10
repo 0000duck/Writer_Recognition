@@ -19,6 +19,8 @@ import android.graphics.Matrix;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
+import android.provider.Settings;
+import android.telephony.TelephonyManager;
 import android.view.Menu;
 import android.view.MotionEvent;
 import android.view.View;
@@ -48,6 +50,7 @@ public class MainActivity extends Activity{
 
 	  public String userName;   //用户名
 	  public String passWord;   //密码
+	  public String phoneSerialNumber;
 	  public AlertDialog diag;
 	  public String webLoginPath="http://101.132.159.49/PaisService.asmx/PaisLogin?";
 	  public String backLoginPath;
@@ -72,11 +75,19 @@ public class MainActivity extends Activity{
 	}
 	//点击登录确定按钮执行的操作
 	public void login_Yes(View v){
+
+		TelephonyManager tm = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);
+		phoneSerialNumber = tm.getDeviceId();//获取智能设备唯一编号
+
+		TelephonyManager tmm = (TelephonyManager) getBaseContext().getSystemService(Context.TELEPHONY_SERVICE);
+
+		//String IMEI =android.os.SystemProperties.get(android.telephony.TelephonyProperties.PROPERTY_IMEI);
+
 		infor=new inputInformation();
 		userName=((EditText)findViewById(R.id.Edit_username)).getText().toString();
 		passWord=((EditText)findViewById(R.id.Edit_password)).getText().toString();
 		if(!userName.isEmpty()&&!passWord.isEmpty()){
-			String temp="IMGMSG::"+userName+"::"+passWord+"::END";
+			String temp="IMGMSG::"+ userName + "::" + passWord + "::" + phoneSerialNumber + "::END";
 			backLoginPath="Picinfo="+ URLEncoder.encode(temp);
 
 			Thread sendThread=new Thread(new Runnable() {
@@ -101,10 +112,29 @@ public class MainActivity extends Activity{
 		@Override
 		public void handleMessage(Message msg) {
 			// TODO Auto-generated method stub
-			Toast.makeText(getApplicationContext(), "用户名或密码错误！", Toast.LENGTH_LONG).show();
+			//Toast.makeText(getApplicationContext(), "用户名或密码错误！", Toast.LENGTH_LONG).show();
+			showDialog();
 
 		}
 	};
+
+	private void showDialog(){
+		AlertDialog.Builder builder=new AlertDialog.Builder(this);
+		builder.setTitle("温馨提示");
+		builder.setIcon(R.drawable.alert);
+		builder.setMessage("用户名或密码错误，有问题请联系2294011886@qq.com");
+		builder.setPositiveButton("我知道了",
+				new DialogInterface.OnClickListener() {
+					@Override
+					public void onClick(DialogInterface dialogInterface, int i) {
+
+					}
+				});
+		AlertDialog dialog=builder.create();
+		dialog.show();
+
+	}
+
 
 	//正则表达式，获得返回结果中的有用信息
 	public static String getContext(String html) {

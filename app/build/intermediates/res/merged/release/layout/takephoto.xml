@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <cn.hxc.imgrecognition.PreviewFrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <View
+            android:id="@+id/view_focus"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true"
+            android:background="@null" />
+
+
+    </cn.hxc.imgrecognition.PreviewFrameLayout>
+
+    <include
+        android:id="@+id/bottomitem"
+        layout="@layout/lastitem"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:background="#f0595959" >
+
+
+        <TextView
+            android:id="@+id/Lb_takephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="拍照中"
+            android:textColor="#fafbfc"
+            android:textSize="17sp" />
+
+        <Button
+            android:id="@+id/flash_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/camera_flash_off"
+            android:onClick="flash" />
+
+        <Button
+            android:id="@+id/flash_btn_on"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/camera_flash_on"
+            android:onClick="flash"
+            android:visibility="invisible" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/back"
+            android:onClick="back" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:layout_gravity="bottom"
+        android:background="#f0595959"
+        android:layout_above="@id/bottomitem">
+
+        <Button
+            android:id="@+id/btn_takephoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/camera"
+            android:onClick="takepicture" />
+
+    </RelativeLayout>
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <View
+            android:id="@+id/rectView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rectbg" />
+
+        <View
+            android:id="@+id/MidLine"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="#32eeaa" />
+
+        <View
+            android:id="@+id/VerticalLine"
+            android:layout_width="3dp"
+            android:layout_height="20dp"
+            android:background="#00ffff" />
+    </AbsoluteLayout>
+</RelativeLayout>

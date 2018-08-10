@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon_backgroud">
+
+    <include
+        android:id="@+id/main_title"
+        layout="@layout/title_layout" />
+
+    <RelativeLayout
+        android:id="@+id/middle_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <include
+            android:id="@+id/input_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/input_layout"/>
+
+        <Button
+            android:id="@+id/main_btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10dip"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/bt_circle"
+            android:gravity="center"
+            android:paddingLeft="15dip"
+            android:paddingRight="15dip"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:text="登    录"
+            android:textColor="#ffffff"
+            android:textSize="16sp"
+            android:onClick="login_Yes"
+             />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_btn_login"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="15dp"
+            android:background="@android:color/transparent"
+            android:layout_marginLeft="20dip"
+            android:text="忘记密码？"
+            android:textColor="#78b9f5"
+            android:onClick="forgetPSW"
+            />
+    </RelativeLayout>
+
+</RelativeLayout>

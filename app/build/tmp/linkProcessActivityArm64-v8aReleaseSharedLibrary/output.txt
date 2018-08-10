@@ -1,0 +1,4 @@
+See file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityArm64-v8aReleaseSharedLibrary/output.txt for all output for linkProcessActivityArm64-v8aReleaseSharedLibrary.
+linking libprocessActivity.so successful.
+
+Finished linkProcessActivityArm64-v8aReleaseSharedLibrary, see full log file:///C:/Users/Αυ»Ά/Desktop/Work/0421/app/build/tmp/linkProcessActivityArm64-v8aReleaseSharedLibrary/output.txt.

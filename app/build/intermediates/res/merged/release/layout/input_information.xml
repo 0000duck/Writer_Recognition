@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroud"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="信息填写"
+            android:textColor="#1d1b1b"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            layout="@layout/layout_inputinfor" />
+
+    <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center" >
+
+        <CheckBox
+            android:id="@+id/ckb_save"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="保存至本地"
+            android:checked="true"
+            android:textColor="#0b0b0b"
+            android:textSize="18sp"/>
+
+        <CheckBox
+            android:id="@+id/ckb_send"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="上传至服务器"
+            android:textColor="#0b0b0b"
+            android:textSize="18sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center" >
+
+        <Button
+            android:id="@+id/bnt_inforYes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="确    定"
+            android:background="@drawable/bt_circle"
+            android:textColor="#ffffff"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:onClick="inforYes"/>
+
+        <Button
+            android:id="@+id/bnt_inforNo"
+            android:layout_marginLeft="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="取    消"
+            android:background="@drawable/bt_circle"
+            android:textColor="#ffffff"
+            android:paddingTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingLeft="30dip"
+            android:paddingRight="30dip"
+            android:onClick="inforNo"/>
+
+    </LinearLayout>
+</LinearLayout>

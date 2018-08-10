@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.xyj.imgrecognition"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+ />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon1"
+        android:label="@string/app_name"
+        android:sharedUserId="android.uid.system"
+        android:theme="@style/MyTheme" >
+        <activity
+            android:name="cn.hxc.imgrecognition.MainActivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action
+                    android:name="android.intent.action.MAIN"
+                    android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.hxc.imgrecognition.inputInformationBlist"
+            android:label="查询本地"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.queryLocInfor"
+            android:label="查询本地"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.blackList"
+            android:label="黑名单裁剪"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.set"
+            android:label="设置"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.savecandidate"
+            android:label="候选人数目"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.chooseImage"
+            android:label="数据库整理"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.processActivity"
+            android:label="识别结果"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.inputInformation"
+            android:label="输入信息"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.queryDBInfor"
+            android:label="查询后台"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.findPassword"
+            android:label="主要功能"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.forgetPassword"
+            android:label="用户注册"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.BlistCompare"
+            android:label="黑名单比较"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="cn.hxc.imgrecognition.takePhoto"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|navigation"
+            android:label="takephoto"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SRICamera" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
