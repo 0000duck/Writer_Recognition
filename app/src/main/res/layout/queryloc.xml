@@ -24,7 +24,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="20dp"
             android:background="@drawable/back"
             android:onClick="searchLocBack"/>
 
@@ -60,6 +59,7 @@
                     android:layout_height="wrap_content"
                     android:background="@drawable/text_circle"
                     android:textSize="14dp"
+                    android:singleLine="true"
                     android:padding="7dp"/>
             </LinearLayout>
 
@@ -82,6 +82,7 @@
                     android:layout_height="wrap_content"
                     android:textSize="14dp"
                     android:background="@drawable/text_circle"
+                    android:singleLine="true"
                     android:padding="7dp"/>
             </LinearLayout>
         </LinearLayout>

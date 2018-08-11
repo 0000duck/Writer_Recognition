@@ -77,6 +77,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -90,7 +91,6 @@ public class takePhoto extends Activity implements AutoFocusCallback,
 	public static long Starttime;
 	public static long Endtime;
 	public static final String TAG = "takePhoto";
-	private Button btn_takephoto;
 	private Button btn_flash;
 	private Button btn_flash_on;
 	private SurfaceView surfaceView;
@@ -98,8 +98,15 @@ public class takePhoto extends Activity implements AutoFocusCallback,
 	private View MidLine;//中间的蓝色线
 	private View VerticalLine; //中间的垂直线
 	private Camera camera;
+	private Button btn_takephoto;
 	private boolean preview;
 	private Activity activity;
+
+	public ImageButton B_contrast;
+	public ImageButton B_QueryLoc;
+	public ImageButton B_QueryDB;
+	public ImageButton B_set;
+	public ImageButton B_blist;
 	// private View nextLayout;
 	// private View fisrtLayout;
 	private Parameters parameters;
@@ -203,6 +210,18 @@ public class takePhoto extends Activity implements AutoFocusCallback,
 		wm.getDefaultDisplay().getMetrics(outMetrics);
 		mScreenWidth = outMetrics.widthPixels; //屏幕宽度
 		mScreenHeight = outMetrics.heightPixels; //屏幕高度
+
+		B_contrast = (ImageButton) findViewById(R.id.B_contrast);
+		B_QueryLoc = (ImageButton) findViewById(R.id.B_QueryLoc);
+		B_QueryDB = (ImageButton) findViewById(R.id.B_QueryDB);
+		B_set = (ImageButton) findViewById(R.id.B_set);
+		B_blist = (ImageButton) findViewById(R.id.B_blist);
+
+		B_contrast.setBackgroundResource(R.drawable.contrast_change);
+		B_QueryLoc.setBackgroundResource(R.drawable.searchloc);
+		B_QueryDB.setBackgroundResource(R.drawable.searchdb);
+		B_set.setBackgroundResource(R.drawable.set);
+		B_blist.setBackgroundResource(R.drawable.blacklist);
 
 		height = (int) mScreenHeight;
 		width = (int) mScreenWidth;

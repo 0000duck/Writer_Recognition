@@ -174,11 +174,13 @@ ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:9
 	android:name
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:43:19-77
 activity#cn.hxc.imgrecognition.queryLocInfor
-ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:9-139
+ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:9-181
 	android:screenOrientation
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:91-127
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:133-169
 	android:label
-		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:70-90
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:112-132
+	android:windowSoftInputMode
+		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:70-111
 	android:name
 		ADDED from C:\Users\Αυ»Ά\Desktop\Work\0421\app\src\main\AndroidManifest.xml:44:19-69
 activity#cn.hxc.imgrecognition.blackList

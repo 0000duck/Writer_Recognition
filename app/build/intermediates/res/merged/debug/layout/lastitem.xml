@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="#000000"
-                android:text="本地"
+                android:text="本地库"
                 android:textSize="10dp"
                 android:layout_gravity="center_horizontal"/>
                 />
@@ -73,7 +73,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#000000"
-            android:text="数据库"
+            android:text="远程库"
             android:textSize="10dp"
             android:layout_gravity="center_horizontal"/>
         />

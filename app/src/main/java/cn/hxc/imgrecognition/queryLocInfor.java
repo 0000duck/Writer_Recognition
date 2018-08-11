@@ -19,6 +19,7 @@ import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.EditText;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TableLayout;
@@ -71,6 +72,12 @@ public class queryLocInfor extends Activity{
     public int fileLength; //查询到的文件的个数
     public String[] row=new String[txtLineNum];
 
+    public ImageButton B_contrast;
+    public ImageButton B_QueryLoc;
+    public ImageButton B_QueryDB;
+    public ImageButton B_set;
+    public ImageButton B_blist;
+
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
@@ -82,6 +89,18 @@ public class queryLocInfor extends Activity{
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         setContentView(R.layout.queryloc);
+
+        B_contrast = (ImageButton) findViewById(R.id.B_contrast);
+        B_QueryLoc = (ImageButton) findViewById(R.id.B_QueryLoc);
+        B_QueryDB = (ImageButton) findViewById(R.id.B_QueryDB);
+        B_set = (ImageButton) findViewById(R.id.B_set);
+        B_blist = (ImageButton) findViewById(R.id.B_blist);
+
+        B_contrast.setBackgroundResource(R.drawable.contrast);
+        B_QueryLoc.setBackgroundResource(R.drawable.searchloc_change);
+        B_QueryDB.setBackgroundResource(R.drawable.searchdb);
+        B_set.setBackgroundResource(R.drawable.set);
+        B_blist.setBackgroundResource(R.drawable.blacklist);
 
         mContent = queryLocInfor.this;
         grid_photo = (GridView) findViewById(R.id.grid_photo);

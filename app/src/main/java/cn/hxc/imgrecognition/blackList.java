@@ -16,6 +16,7 @@ import android.view.Window;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Spinner;
@@ -52,12 +53,30 @@ public class blackList extends Activity{
     CropImageView cropImageView;
     Button cropButton;
 
+    public ImageButton B_contrast;
+    public ImageButton B_QueryLoc;
+    public ImageButton B_QueryDB;
+    public ImageButton B_set;
+    public ImageButton B_blist;
+
     private static final String IMAGE_UNSPECIFIED = "image/*";
     private final int IMAGE_CODE = 0; // 这里的IMAGE_CODE是自己任意定义的
 
     protected void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
             setContentView(R.layout.blacklist);//软件activity的布局
+
+        B_contrast = (ImageButton) findViewById(R.id.B_contrast);
+        B_QueryLoc = (ImageButton) findViewById(R.id.B_QueryLoc);
+        B_QueryDB = (ImageButton) findViewById(R.id.B_QueryDB);
+        B_set = (ImageButton) findViewById(R.id.B_set);
+        B_blist = (ImageButton) findViewById(R.id.B_blist);
+
+        B_contrast.setBackgroundResource(R.drawable.contrast);
+        B_QueryLoc.setBackgroundResource(R.drawable.searchloc);
+        B_QueryDB.setBackgroundResource(R.drawable.searchdb);
+        B_set.setBackgroundResource(R.drawable.set);
+        B_blist.setBackgroundResource(R.drawable.blacklist_change);
 
         btnPhone = (Button) findViewById(R.id.btnPhone);
         B_saveblist=(Button) findViewById(R.id.B_shotblist);
@@ -125,6 +144,7 @@ public class blackList extends Activity{
                 getBmpFormPhone = MediaStore.Images.Media.getBitmap(resolver, originalUri);
                 int pictureSize=getBmpFormPhone.getHeight()*getBmpFormPhone.getWidth();
                 cropImageView.setImageBitmap(getBmpFormPhone);
+                cropButton.setVisibility(View.VISIBLE);
                     // 显得到bitmap图片
                     // imageView.setImageBitmap(bm);
                     String[] proj = { MediaStore.Images.Media.DATA };

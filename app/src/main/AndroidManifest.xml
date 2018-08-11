@@ -41,7 +41,7 @@
         </activity>
 
         <activity android:name="cn.hxc.imgrecognition.inputInformationBlist" android:label="查询本地" android:screenOrientation="portrait"></activity>
-        <activity android:name="cn.hxc.imgrecognition.queryLocInfor" android:label="查询本地" android:screenOrientation="portrait"></activity>
+        <activity android:name="cn.hxc.imgrecognition.queryLocInfor" android:windowSoftInputMode="stateHidden" android:label="查询本地" android:screenOrientation="portrait"></activity>
         <activity android:name="cn.hxc.imgrecognition.blackList" android:label="黑名单裁剪" android:screenOrientation="portrait"></activity>
         <activity android:name="cn.hxc.imgrecognition.set" android:label="设置" android:screenOrientation="portrait"></activity>
         <activity android:name="cn.hxc.imgrecognition.savecandidate" android:label="候选人数目" android:screenOrientation="portrait"></activity>

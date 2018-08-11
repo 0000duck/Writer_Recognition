@@ -16,6 +16,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.CheckBox;
+import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.Toast;
 
@@ -32,6 +33,12 @@ public class queryDBInfor extends Activity{
 
     private MyWebView wView;
 
+    public ImageButton B_contrast;
+    public ImageButton B_QueryLoc;
+    public ImageButton B_QueryDB;
+    public ImageButton B_set;
+    public ImageButton B_blist;
+
     protected void onCreate(Bundle savedInstanceState) {
         // TODO Auto-generated method stub
         super.onCreate(savedInstanceState);
@@ -43,6 +50,18 @@ public class queryDBInfor extends Activity{
         window.addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
 
         setContentView(R.layout.query_information);
+
+        B_contrast = (ImageButton) findViewById(R.id.B_contrast);
+        B_QueryLoc = (ImageButton) findViewById(R.id.B_QueryLoc);
+        B_QueryDB = (ImageButton) findViewById(R.id.B_QueryDB);
+        B_set = (ImageButton) findViewById(R.id.B_set);
+        B_blist = (ImageButton) findViewById(R.id.B_blist);
+
+        B_contrast.setBackgroundResource(R.drawable.contrast);
+        B_QueryLoc.setBackgroundResource(R.drawable.searchloc);
+        B_QueryDB.setBackgroundResource(R.drawable.searchdb_change);
+        B_set.setBackgroundResource(R.drawable.set);
+        B_blist.setBackgroundResource(R.drawable.blacklist);
 
         wView = (MyWebView) findViewById(R.id.webView);
         TelephonyManager tm = (TelephonyManager)this.getSystemService(Context.TELEPHONY_SERVICE);

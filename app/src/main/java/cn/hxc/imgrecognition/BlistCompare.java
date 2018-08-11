@@ -8,6 +8,7 @@ import android.graphics.Matrix;
 import android.os.Bundle;
 import android.os.Environment;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -39,6 +40,12 @@ public class BlistCompare extends Activity {
     private TextView orignalTxt;
     private TextView norTxt;
 
+    public ImageButton B_contrast;
+    public ImageButton B_QueryLoc;
+    public ImageButton B_QueryDB;
+    public ImageButton B_set;
+    public ImageButton B_blist;
+
     Bitmap originBitmap;
     Bitmap norPic;
 
@@ -50,6 +57,18 @@ public class BlistCompare extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.blistcompare);//软件activity的布局
+
+        B_contrast = (ImageButton) findViewById(R.id.B_contrast);
+        B_QueryLoc = (ImageButton) findViewById(R.id.B_QueryLoc);
+        B_QueryDB = (ImageButton) findViewById(R.id.B_QueryDB);
+        B_set = (ImageButton) findViewById(R.id.B_set);
+        B_blist = (ImageButton) findViewById(R.id.B_blist);
+
+        B_contrast.setBackgroundResource(R.drawable.contrast);
+        B_QueryLoc.setBackgroundResource(R.drawable.searchloc);
+        B_QueryDB.setBackgroundResource(R.drawable.searchdb);
+        B_set.setBackgroundResource(R.drawable.set);
+        B_blist.setBackgroundResource(R.drawable.blacklist_change);
 
         listView=(MyListView)findViewById(R.id.Slistview);
         itemAdapter=new ItemAdapter(this,R.layout.listprocess,list);
@@ -721,7 +740,7 @@ public class BlistCompare extends Activity {
         startActivity(intent);
     }
     public void onBackPressed(){
-        Intent intent = new Intent(BlistCompare.this, takePhoto.class);
+        Intent intent = new Intent(BlistCompare.this, blackList.class);
         startActivity(intent);
     }
 
